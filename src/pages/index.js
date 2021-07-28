@@ -1,5 +1,7 @@
 import * as React from "react";
 
+import "../styles/index.css";
+
 const IndexPage = () => {
   return (
     <div>
@@ -10,25 +12,30 @@ const IndexPage = () => {
         <a href="#projects">Projects</a>
         <a href="#services">Services</a>
         <a href="#toolkit">Toolkit</a>
-        <a href="#stories">Stories</a>
+        <a href="#blog">Blog</a>
         <a href="#contact">Contact</a>
         <button>Contact</button>
       </nav>
       <main>
-        <section id="home">
-          <h1>Simplify Your Web Experience</h1>
-          <p>Working with us means focusing on your vision</p>
-
+        <section id="home" class="background-blue">
           <div>
-            <button>Request Quote</button>
-            <button>Learn More</button>
+            <h1>Simplify Your Web Experience</h1>
+            <p>Working with us means focusing on your vision</p>
+
+            <div>
+              <button>Request Quote</button>
+              <br />
+              <button class="button--white">Learn More</button>
+            </div>
           </div>
         </section>
 
         <section id="projects">
-          <h2>Projects</h2>
-          <p>We help all sorts of people bring their vision to life</p>
           <div>
+            <h2>Projects</h2>
+            <p>We help all sorts of people bring their vision to life</p>
+          </div>
+          <div class="background-blue">
             <div>
               <img src={`/images/icon.svg`} alt="" />
               <h3>Handford Creative &#38; Imaging</h3>
@@ -50,13 +57,15 @@ const IndexPage = () => {
           </div>
         </section>
         <section id="services">
-          <h2>Services</h2>
-          <p>
-            We have experience providing the following services to a variety of
-            professionals - from individual artists to small businesses, and
-            international companies
-          </p>
           <div>
+            <h2>Services</h2>
+            <p>
+              We have experience providing the following services to a variety
+              of professionals - from individual artists to small businesses,
+              and international companies
+            </p>
+          </div>
+          <div class="background-blue">
             <ul>
               <li>E-Commerce</li>
               <li>Web Apps</li>
@@ -74,12 +83,14 @@ const IndexPage = () => {
           </div>
         </section>
         <section id="toolkit">
-          <h2>Toolkit</h2>
-          <p>
-            As developers, we never stop learning and adapting to new
-            technology. These are some of the tools we use:
-          </p>
           <div>
+            <h2>Toolkit</h2>
+            <p>
+              As developers, we never stop learning and adapting to new
+              technology. These are some of the tools we use:
+            </p>
+          </div>
+          <div class="background-blue">
             <div>
               <img src="./src/images/icon.svg" alt="" />
               <h3>Web Development</h3>
@@ -100,26 +111,28 @@ const IndexPage = () => {
             </div>
           </div>
         </section>
-        <section id="stories">
-          <h2>Blog</h2>
-          <p>
-            One of our passions is journalism and we like to combine programming
-            and design principles into how we tell stories
-          </p>
+        <section id="blog">
+          <div class="section-header">
+            <h2>Blog</h2>
+            <p>
+              One of our passions is journalism and we like to combine
+              programming and design principles into how we tell stories
+            </p>
+          </div>
           <div>
-            <h2>
+            <h3>
               We produce explanatory code-alongs, visual essays, and interviews
               with inspiring people
-            </h2>
+            </h3>
             <div>
-              <h2>SQL Simplified</h2>
+              <h3>SQL Simplified</h3>
               <p>
                 Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad,
                 nam no suscipit quaerendum.
               </p>
             </div>
             <div>
-              <h2>Bagel Analytics</h2>
+              <h3>Bagel Analytics</h3>
               <p>
                 At nam minimum ponderum. Est audiam animal molestiae te. Ex duo
                 eripuit mentitum.
@@ -129,27 +142,31 @@ const IndexPage = () => {
           </div>
           <img src="./src/images/image-placeholder.svg" alt="" />
         </section>
-        <section id="contact">
-          <h1>Let’s Start With Your Name</h1>
-          <p>Tell us how to contact you, and we’ll be in touch shortly</p>
-          <form>
-            <label for="name">*Name:</label>
-            <input type="text" id="name" name="name" />
-            <br />
-            <label for="email">*Email:</label>
-            <input type="text" id="email" name="email" />
-            <br />
-            <label for="message">Leave us a short message:</label>
-            <br />
-            <textarea id="message" rows="4" cols="50"></textarea>
-            <br />
-            <button>CONTINUE</button>
-            <footer>
-              <h3>nuSite</h3>
-              <p>info@nusite.com</p>
-              <p>Montreal, Qc</p>
-            </footer>
-          </form>
+        <section id="contact" class="background-blue">
+          <div>
+            <h2>Let’s Start With Your Name</h2>
+            <p>Tell us how to contact you, and we’ll be in touch shortly</p>
+            <form>
+              <label for="name">*Name:</label>
+              <input type="text" id="name" name="name" />
+              <br />
+              <label for="email">*Email:</label>
+              <input type="text" id="email" name="email" />
+              <br />
+              <label for="message">Leave us a short message:</label>
+              <br />
+              <textarea id="message" rows="4"></textarea>
+              <br />
+              <button>CONTINUE</button>
+              <footer>
+                <h3>nuSite</h3>
+                <div>
+                  <p>info@nusite.com</p>
+                  <p>Montreal, Qc</p>
+                </div>
+              </footer>
+            </form>
+          </div>
         </section>
       </main>
     </div>
