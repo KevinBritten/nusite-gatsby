@@ -29,19 +29,19 @@ const IndexPage = () => {
           <p>We help all sorts of people bring their vision to life</p>
           <div>
             <div>
-              <img src="./src/images/icon.svg" alt="" />
+              <img src={`/images/icon.svg`} alt="" />
               <h3>Handford Creative &#38; Imaging</h3>
               <p>HTML / CSS / JavaScript / WebFlow / CMS</p>
               <a href="https://www.handford.com">View Live Site</a>
             </div>
             <div>
-              <img src="./src/images/icon.svg" alt="" />
+              <img src={`/images/icon.svg`} alt="" />
               <h3>Handford Creative &#38; Imaging</h3>
               <p>HTML / CSS / JavaScript / WebFlow / CMS</p>
               <a href="https://www.handford.com">View Live Site</a>
             </div>
             <div>
-              <img src="./src/images/icon.svg" alt="" />
+              <img src={`/images/icon.svg`} alt="" />
               <h3>Handford Creative &#38; Imaging</h3>
               <p>HTML / CSS / JavaScript / WebFlow / CMS</p>
               <a href="https://www.handford.com">View Live Site</a>
