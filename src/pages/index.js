@@ -1,5 +1,7 @@
 import * as React from "react";
 
+import Hero from "./Hero.js";
+
 import "../styles/index.css";
 
 const IndexPage = () => {
@@ -17,19 +19,7 @@ const IndexPage = () => {
         <button>Contact</button>
       </nav>
       <main>
-        <section id="home" class="background-blue">
-          <div>
-            <h1>Simplify Your Web Experience</h1>
-            <p>Working with us means focusing on your vision</p>
-
-            <div>
-              <button>Request Quote</button>
-              <br />
-              <button class="button--white">Learn More</button>
-            </div>
-          </div>
-        </section>
-
+        <Hero />
         <section id="projects">
           <div>
             <h2>Projects</h2>
