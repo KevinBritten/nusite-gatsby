@@ -11,7 +11,7 @@ function Services() {
           international companies
         </p>
       </div>
-      <div class="background-blue">
+      <div className="background-blue">
         <ul>
           <li>E-Commerce</li>
           <li>Web Apps</li>

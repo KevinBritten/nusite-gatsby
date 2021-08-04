@@ -7,7 +7,7 @@ function Projects() {
         <h2>Projects</h2>
         <p>We help all sorts of people bring their vision to life</p>
       </div>
-      <div class="background-blue">
+      <div className="background-blue">
         <div>
           <img src={`/images/icon.svg`} alt="" />
           <h3>Handford Creative &#38; Imaging</h3>

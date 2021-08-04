@@ -10,7 +10,7 @@ function Toolkit() {
           These are some of the tools we use:
         </p>
       </div>
-      <div class="background-blue">
+      <div className="background-blue">
         <div>
           <img src="./src/images/icon.svg" alt="" />
           <h3>Web Development</h3>

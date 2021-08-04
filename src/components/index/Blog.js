@@ -3,7 +3,7 @@ import React from "react";
 function Blog() {
   return (
     <section id="blog">
-      <div class="section-header">
+      <div className="section-header">
         <h2>Blog</h2>
         <p>
           One of our passions is journalism and we like to combine programming
