@@ -2,12 +2,13 @@
 
 * {
   box-sizing: border-box;
-  font-family: "Mulish";
+  font-family: var(--f-mulish);
 }
 
 body {
   margin: 0;
   padding: 0;
+  background-color: var(--c-off-white);
 }
 p {
   color: var(--c-grey);
