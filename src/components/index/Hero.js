@@ -8,7 +8,7 @@ function Hero() {
         <p>Working with us means focusing on your vision</p>
 
         <div>
-          <button>Request Quote</button>
+          <button className="button--blue">Request Quote</button>
           <br />
           <button className="button--white">Learn More</button>
         </div>

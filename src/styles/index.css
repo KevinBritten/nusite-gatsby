@@ -1,70 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
-
-:root {
-  --c-blue: #2f3ae0;
-}
-
-* {
-  box-sizing: border-box;
-  font-family: "Mulish";
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-nav {
-  display: none;
-}
-
-a {
-  color: initial;
-}
-
-h1 {
-  font-size: 2.7rem;
-  margin-top: 0;
-}
-
-h2 {
-  font-size: 2rem;
-  margin: 0 0 2rem;
-}
-
-h3 {
-  font-size: 1.5rem;
-}
-
-section {
-  text-align: center;
-}
-
-button {
-  display: inline-block;
-  background-color: initial;
-  border: 1px solid white;
-  color: white;
-  padding: 1rem 2rem;
-  margin: 1rem 0;
-}
-
-textarea {
-  width: 100%;
-  resize: none;
-}
-
-nav a {
-  display: inline-block;
-}
-footer {
-  display: flex;
-  justify-content: space-between;
-}
-footer * {
-  display: block;
-}
-
 #home {
   height: 80vh;
   padding-top: 3rem;
@@ -84,21 +17,22 @@ footer * {
   background-color: var(--c-blue);
   color: white;
 }
+
 .section-header {
   padding: 0 2rem 1rem;
 }
+
 section > div {
   padding: 0 1.5rem;
 }
-/* .background-blue h3,
-.background-blue p,
-.background-blue li,
-.background-blue button,
-.background-blue a {
-  color: white;
-} */
 
 .button--white {
   background-color: white;
   color: black;
+}
+
+.button--blue {
+  background-color: var(--c-blue);
+  color: white;
+  border: 1px solid white;
 }

@@ -2,7 +2,11 @@ import * as React from "react";
 import loadable from "@loadable/component";
 
 import "../styles/index.css";
+import "../styles/global.css";
+import "../styles/variables.css";
+import "../styles/nav.css";
 
+import Nav from "../components/index/Nav.js";
 import Hero from "../components/index/Hero.js";
 const Projects = loadable(() => import("../components/index/Projects.js"));
 const Services = loadable(() => import("../components/index/Services.js"));
@@ -13,18 +17,8 @@ const Toolkit = loadable(() => import("../components/index/Toolkit.js"));
 const IndexPage = () => {
   return (
     <div>
-      <nav>
-        <a href="#home">
-          <h2>nuSite</h2>
-        </a>
-        <a href="#projects">Projects</a>
-        <a href="#services">Services</a>
-        <a href="#toolkit">Toolkit</a>
-        <a href="#blog">Blog</a>
-        <a href="#contact">Contact</a>
-        <button>Contact</button>
-      </nav>
       <main>
+        <Nav />
         <Hero />
         <Projects />
         <Services />
