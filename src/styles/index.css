@@ -18,21 +18,32 @@
   color: white;
 }
 
-.section-header {
-  padding: 0 2rem 1rem;
+.background-blue * {
+  color: white;
 }
 
 section > div {
-  padding: 0 1.5rem;
+  padding: 1.5rem;
 }
 
 .button--white {
   background-color: white;
   color: black;
+  border: none;
 }
 
 .button--blue {
   background-color: var(--c-blue);
   color: white;
   border: 1px solid white;
+}
+
+.card {
+  border: 1px white solid;
+  margin-bottom: 3rem;
+  padding: 1rem;
+}
+
+.card:last-child {
+  margin: 0;
 }

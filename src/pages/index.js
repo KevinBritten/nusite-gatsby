@@ -5,6 +5,7 @@ import "../styles/index.css";
 import "../styles/global.css";
 import "../styles/variables.css";
 import "../styles/nav.css";
+import "../styles/projects.css";
 
 import Nav from "../components/index/Nav.js";
 import Hero from "../components/index/Hero.js";
