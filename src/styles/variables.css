@@ -1,7 +1,8 @@
 :root {
   --c-blue: #2f3ae0;
   --c-off-white: #f4f6fb;
-  --c-grey: #737b7d;
+  --c-light-grey: #737b7d;
+  --c-dark-grey: #373f41;
 
   --f-mulish: "Mulish", sans-serif;
 }

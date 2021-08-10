@@ -3,6 +3,7 @@
 * {
   box-sizing: border-box;
   font-family: var(--f-mulish);
+  color: var(--c-dark-grey);
 }
 
 body {
@@ -11,7 +12,7 @@ body {
   background-color: var(--c-off-white);
 }
 p {
-  color: var(--c-grey);
+  color: var(--c-light-grey);
 }
 a {
   color: initial;
@@ -35,6 +36,11 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
+}
+
+ul {
+  padding-left: 0;
+  list-style-position: inside;
 }
 
 section {

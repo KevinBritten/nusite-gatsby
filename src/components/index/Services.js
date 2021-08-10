@@ -12,20 +12,28 @@ function Services() {
         </p>
       </div>
       <div className="background-blue">
+        <h3>Design &#38; Development</h3>
         <ul>
-          <li>E-Commerce</li>
-          <li>Web Apps</li>
-          <li>CMS Integration</li>
-          <li>Migration</li>
-          <li>Database Services</li>
+          <li>UX &#38; UI Design</li>
+          <li>Web &#38; CMS Development</li>
+          <li>Integration &#38; Automation</li>
+        </ul>
+        <button className="button--blue">Learn more</button>
+        <h3>Maintenance</h3>
+        <ul>
           <li>Static Sites</li>
           <li>Maintenance</li>
           <li>Data Analytics</li>
-          <li>Visualizations</li>
-          <li>Per Hour Freelance</li>
-          <li>Consulting</li>
-          <li>Web Content</li>
         </ul>
+        <button className="button--blue">Learn more</button>
+
+        <h3>Web Analytics</h3>
+        <ul>
+          <li>Content Analytics</li>
+          <li>A / B Testing</li>
+          <li>SEO Analytics</li>
+        </ul>
+        <button className="button--blue">Learn more</button>
       </div>
     </section>
   );
