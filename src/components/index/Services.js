@@ -7,7 +7,7 @@ function Services() {
         <h2>Services</h2>
         <p>
           We have experience providing the following services to a variety of
-          professionals - from individual artists to small businesses, and
+          professionals - from individuals and artists to small businesses, and
           international companies
         </p>
       </div>
@@ -21,9 +21,9 @@ function Services() {
         <button className="button--blue">Learn more</button>
         <h3>Maintenance</h3>
         <ul>
-          <li>Static Sites</li>
-          <li>Maintenance</li>
-          <li>Data Analytics</li>
+          <li>Support</li>
+          <li>Ongoing Improvements</li>
+          <li>Training</li>
         </ul>
         <button className="button--blue">Learn more</button>
 
