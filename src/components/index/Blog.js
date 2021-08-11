@@ -11,25 +11,26 @@ function Blog() {
         </p>
       </div>
       <div>
-        <h3>
-          We produce explanatory code-alongs, visual essays, and interviews with
-          inspiring people
-        </h3>
-        <div>
+        <div className="card card--blue card--blog">
+          <img src={`/images/sql.jpeg`} alt="" />
           <h3>SQL Simplified</h3>
           <p>
             Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam
             no suscipit quaerendum.
           </p>
+          <a>Read full story</a>
         </div>
-        <div>
+        <div className="card card--blue card--blog">
+          <img src={`/images/bagel.jpeg`} alt="" />
+
           <h3>Bagel Analytics</h3>
           <p>
             At nam minimum ponderum. Est audiam animal molestiae te. Ex duo
             eripuit mentitum.
           </p>
+          <a>Read full story</a>
         </div>
-        <button>See More Content</button>
+        <button className="button--blue">See More Content</button>
       </div>
       <img src="./src/images/image-placeholder.svg" alt="" />
     </section>

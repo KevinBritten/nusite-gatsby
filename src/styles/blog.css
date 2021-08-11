@@ -1,0 +1,20 @@
+.card--blog p {
+  text-align: left;
+}
+
+.card--blog a {
+  color: var(--c-light-grey);
+  text-decoration: underline;
+  font-size: 0.7rem;
+}
+
+.card--blog img {
+  position: absolute;
+  top: 0;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -10;
+  opacity: 0.1;
+}

@@ -42,8 +42,13 @@ section > div {
   border: 1px white solid;
   margin-bottom: 3rem;
   padding: 1rem;
+  position: relative;
 }
 
 .card:last-child {
   margin: 0;
+}
+
+.card--blue {
+  border-color: var(--c-blue);
 }
