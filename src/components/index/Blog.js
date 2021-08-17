@@ -14,8 +14,14 @@ function Blog() {
       </div>
       <div>
         <div className="card card--blue card--blog">
-          <StaticImage class="static-img" src="../../images/sql.jpeg" alt="" />
-          <h3>SQL Simplified</h3>
+          <div class="blog__title-container">
+            <StaticImage
+              class="static-img"
+              src="../../images/sql.jpeg"
+              alt=""
+            />
+            <h3>SQL Simplified</h3>
+          </div>
           <p>
             Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam
             no suscipit quaerendum.
@@ -23,13 +29,15 @@ function Blog() {
           <a>Read full story</a>
         </div>
         <div className="card card--blue card--blog">
-          <StaticImage
-            class="static-img"
-            src="../../images/bagel.jpeg"
-            alt=""
-          />
+          <div class="blog__title-container">
+            <StaticImage
+              class="static-img"
+              src="../../images/bagel.jpeg"
+              alt=""
+            />
 
-          <h3>Bagel Analytics</h3>
+            <h3>Bagel Analytics</h3>
+          </div>
           <p>
             At nam minimum ponderum. Est audiam animal molestiae te. Ex duo
             eripuit mentitum.
