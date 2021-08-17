@@ -1,0 +1,17 @@
+#home {
+  min-height: 80vh;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#home button {
+  width: 200px;
+}
+
+#home p {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 2rem;
+}
