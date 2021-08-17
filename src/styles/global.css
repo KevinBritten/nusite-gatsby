@@ -56,6 +56,17 @@ button {
   border-radius: var(--v-border-radius);
 }
 
+input,
+textarea {
+  border-radius: var(--v-border-radius);
+  border-color: transparent;
+  margin-bottom: 0.5rem;
+}
+
+label {
+  margin: 0 0.1rem 0.3rem;
+  display: inline-block;
+}
 textarea {
   width: 100%;
   resize: none;
