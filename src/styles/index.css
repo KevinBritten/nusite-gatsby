@@ -22,6 +22,9 @@
   color: white;
 }
 
+section {
+  border-top: 2px dashed var(--c-blue);
+}
 section > div {
   padding: 1.5rem;
 }
