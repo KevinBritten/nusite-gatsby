@@ -11,29 +11,35 @@ function Projects() {
         </p>
       </div>
       <div className="background-blue">
-        <div className="project__item">
-          <div>
-            <h3>Handford Creative &#38; Imaging</h3>
-            <p>HTML / CSS / JavaScript / WebFlow / CMS</p>
-            <a href="https://www.handford.com">View Live Site</a>
+        <div class="project__item-outer">
+          <div className="project__item">
+            <div>
+              <h3>Handford Creative &#38; Imaging</h3>
+              <p>HTML / CSS / JavaScript / WebFlow / CMS</p>
+              <a href="https://www.handford.com">View Live Site</a>
+            </div>
+            <h1>01</h1>
           </div>
-          <h1>01</h1>
         </div>
-        <div className="project__item">
-          <div>
-            <h3>Handford Creative &#38; Imaging</h3>
-            <p>HTML / CSS / JavaScript / WebFlow / CMS</p>
-            <a href="https://www.handford.com">View Live Site</a>
+        <div class="project__item-outer">
+          <div className="project__item">
+            <div>
+              <h3>Handford Creative &#38; Imaging</h3>
+              <p>HTML / CSS / JavaScript / WebFlow / CMS</p>
+              <a href="https://www.handford.com">View Live Site</a>
+            </div>
+            <h1>01</h1>
           </div>
-          <h1>01</h1>
         </div>
-        <div className="project__item">
-          <div>
-            <h3>Handford Creative &#38; Imaging</h3>
-            <p>HTML / CSS / JavaScript / WebFlow / CMS</p>
-            <a href="https://www.handford.com">View Live Site</a>
+        <div class="project__item-outer">
+          <div className="project__item">
+            <div>
+              <h3>Handford Creative &#38; Imaging</h3>
+              <p>HTML / CSS / JavaScript / WebFlow / CMS</p>
+              <a href="https://www.handford.com">View Live Site</a>
+            </div>
+            <h1>01</h1>
           </div>
-          <h1>01</h1>
         </div>
       </div>
     </section>

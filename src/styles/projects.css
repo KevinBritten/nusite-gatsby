@@ -1,11 +1,18 @@
 .project__item {
   display: flex;
   flex-direction: column-reverse;
-  border-bottom: 4px white solid;
+  /* border-bottom: 4px white solid; */
   padding-bottom: 1rem;
   margin-top: 2rem;
 }
 
+.project__item-outer::after {
+  content: "";
+  display: block;
+  border: 2px solid white;
+  border-radius: var(--v-border-radius);
+  margin-bottom: 20px;
+}
 .project__item:first-child {
   margin-top: 0;
 }

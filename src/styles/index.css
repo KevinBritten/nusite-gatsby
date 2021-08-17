@@ -1,5 +1,5 @@
 #home {
-  height: 80vh;
+  min-height: 80vh;
   padding-top: 3rem;
 }
 
@@ -22,9 +22,13 @@
   color: white;
 }
 
-section {
-  border-top: 2px dashed var(--c-blue);
-}
+/* section::after {
+  content: "";
+  background-color: white;
+  width: 100%;
+  border: 2px dotted var(--c-blue);
+  display: block;
+} */
 section > div {
   padding: 1.5rem;
 }
@@ -43,6 +47,7 @@ section > div {
 
 .card {
   border: 1px white solid;
+  border-radius: var(--v-border-radius);
   margin-bottom: 3rem;
   padding: 1rem;
   position: relative;
