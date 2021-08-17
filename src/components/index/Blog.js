@@ -1,5 +1,7 @@
 import React from "react";
 
+import { StaticImage } from "gatsby-plugin-image";
+
 function Blog() {
   return (
     <section id="blog">
@@ -12,7 +14,7 @@ function Blog() {
       </div>
       <div>
         <div className="card card--blue card--blog">
-          <img src={`/images/sql.jpeg`} alt="" />
+          <StaticImage class="static-img" src="../../images/sql.jpeg" alt="" />
           <h3>SQL Simplified</h3>
           <p>
             Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam
@@ -21,7 +23,11 @@ function Blog() {
           <a>Read full story</a>
         </div>
         <div className="card card--blue card--blog">
-          <img src={`/images/bagel.jpeg`} alt="" />
+          <StaticImage
+            class="static-img"
+            src="../../images/bagel.jpeg"
+            alt=""
+          />
 
           <h3>Bagel Analytics</h3>
           <p>

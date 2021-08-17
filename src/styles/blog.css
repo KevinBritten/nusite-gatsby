@@ -8,7 +8,7 @@
   font-size: 0.7rem;
 }
 
-.card--blog img {
+.card--blog .static-img {
   position: absolute;
   top: 0;
   left: 0%;
