@@ -1,6 +1,6 @@
 .card--blog p {
   text-align: left;
-  color: var(--c-dark-grey);
+  color: var(--c-dark-gr);
 }
 
 .card--blog a {
@@ -10,22 +10,16 @@
 }
 
 .card--blog .static-img {
-  /* position: absolute;
-  top: 0;
-  left: 0%; */
-  /* height: 100%; */
   height: 200px;
   width: 100%;
   object-fit: cover;
   z-index: -10;
-  /* opacity: 0.1; */
 }
 
 .blog__title-container {
   position: relative;
 }
 .blog__title-container > h3 {
-  color: var(--c-light-grey);
   padding: 3px 0;
   position: absolute;
   bottom: 0px;

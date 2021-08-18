@@ -11,14 +11,11 @@ function Contact() {
             <label htmlFor="name">*Name:</label>
             <input type="text" id="name" name="name" />
           </div>
-          {/* <br /> */}
           <label htmlFor="email">*Email:</label>
           <input type="text" id="email" name="email" />
           <br />
           <label htmlFor="message">Leave us a short message:</label>
-          {/* <br /> */}
           <textarea id="message" rows="4"></textarea>
-          {/* <br /> */}
           <button className="button--white">CONTINUE</button>
           <footer>
             <h3>nuSite</h3>

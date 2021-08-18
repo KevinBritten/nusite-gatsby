@@ -1,7 +1,6 @@
 .project__item {
   display: flex;
   flex-direction: column-reverse;
-  /* border-bottom: 4px white solid; */
   padding-bottom: 1rem;
   margin-top: 2rem;
 }

@@ -6,14 +6,6 @@
 .background-blue * {
   color: white;
 }
-
-/* section::after {
-  content: "";
-  background-color: white;
-  width: 100%;
-  border: 2px dotted var(--c-blue);
-  display: block;
-} */
 section > div {
   padding: 1.5rem;
 }

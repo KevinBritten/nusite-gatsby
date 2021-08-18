@@ -1,13 +1,10 @@
 :root {
-  /* Colours */
   --c-blue: #2f3ae0;
   --c-off-white: #f4f6fb;
   --c-light-grey: #737b7d;
   --c-dark-grey: #373f41;
 
-  /* Fonts */
   --f-mulish: "Mulish", sans-serif;
 
-  /* Values */
   --v-border-radius: 3px;
 }
