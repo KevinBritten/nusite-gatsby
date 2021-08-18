@@ -71,11 +71,3 @@ textarea {
   width: 100%;
   resize: none;
 }
-
-footer {
-  display: flex;
-  justify-content: space-between;
-}
-footer * {
-  display: block;
-}

@@ -8,14 +8,16 @@ import "../styles/nav.css";
 import "../styles/hero.css";
 import "../styles/projects.css";
 import "../styles/blog.css";
+import "../styles/footer.css";
 
 import Nav from "../components/index/Nav.js";
 import Hero from "../components/index/Hero.js";
 const Projects = loadable(() => import("../components/index/Projects.js"));
 const Services = loadable(() => import("../components/index/Services.js"));
+const Toolkit = loadable(() => import("../components/index/Toolkit.js"));
 const Blog = loadable(() => import("../components/index/Blog.js"));
 const Contact = loadable(() => import("../components/index/Contact.js"));
-const Toolkit = loadable(() => import("../components/index/Toolkit.js"));
+const Footer = loadable(() => import("../components/index/Footer.js"));
 
 const IndexPage = () => {
   return (
@@ -28,6 +30,7 @@ const IndexPage = () => {
         <Toolkit />
         <Blog />
         <Contact />
+        <Footer />
       </main>
     </div>
   );

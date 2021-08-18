@@ -17,13 +17,6 @@ function Contact() {
           <label htmlFor="message">Leave us a short message:</label>
           <textarea id="message" rows="4"></textarea>
           <button className="button--white">CONTINUE</button>
-          <footer>
-            <h3>nuSite</h3>
-            <div>
-              <p>info@nusite.com</p>
-              <p>Montreal, Qc</p>
-            </div>
-          </footer>
         </form>
       </div>
     </section>
